@@ -1,0 +1,36 @@
+/*html, body {
+  height: 150%;
+  border: 2px red solid;
+}*/
+/*
+body {
+  height: 150%;
+  border: 2px blue solid;
+}*/
+
+.box {
+  height: 100px;
+  width: 100px;
+}
+
+.box-1 {
+  background: rebeccapurple;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.box-2 {
+  background: firebrick;
+  position: absolute;
+}
+
+.box-3 {
+  background: lightseagreen;
+  position: absolute;
+}
+
+.box-4 {
+  background: lightcoral;
+  position: absolute;
+}

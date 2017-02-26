@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Columns</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <!--Normally these medium columns go full wide on small screen sizes-->
+    <div class="row">
+      <div class="col-md-3">
+        <div class="box skyblue">col-md-3</div>
+      </div>
+      <div class="col-md-3">
+        <div class="box skyblue">col-md-3</div>
+      </div>
+      <div class="col-md-3">
+        <div class="box skyblue">col-md-3</div>
+      </div>
+      <div class="col-md-3">
+        <div class="box skyblue">col-md-3</div>
+      </div>
+    </div>
+
+    <!--These col-md-3 columns go half wide when on a small screen-->
+    <div class="row">
+      <div class="col-sm-6 col-md-3">
+        <div class="box purple">col-sm-6 col-md-3</div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="box purple">col-sm-6 col-md-3</div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="box purple">col-sm-6 col-md-3</div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="box purple">col-sm-6 col-md-3</div>
+      </div>
+    </div>
+<!--
+    These are full wide on a medium screen, half wide on a small screen, 1/4 wide on an extra small screen-->
+    <div class="row">
+      <div class="col-xs-3 col-sm-6 col-md-12">
+        <div class="box red">col-xs-3 col-sm-6 col-md-12</div>
+      </div>
+      <div class="col-xs-3 col-sm-6 col-md-12">
+        <div class="box red">col-xs-3 col-sm-6 col-md-12</div>
+      </div>
+      <div class="col-xs-3 col-sm-6 col-md-12">
+        <div class="box red">col-xs-3 col-sm-6 col-md-12</div>
+      </div>
+      <div class="col-xs-3 col-sm-6 col-md-12">
+        <div class="box red">col-xs-3 col-sm-6 col-md-12</div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+@media (max-width: 410px) {
+  ul.navbar-nav>li.navbar-item {
+    padding: 12px;
+  }
+  ul.navbar-nav>li.navbar-item:first-child {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  aside.aside {
+    float: none;
+    width: 100%;
+  }
+  section.content {
+    float: none;
+    width: 100%;
+  }
+}

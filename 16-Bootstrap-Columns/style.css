@@ -1,0 +1,10 @@
+.box {
+  background: deepskyblue;
+  color: white;
+  padding: 20px;
+  height: 400px;
+}
+
+.margin-top-80 {
+  margin-top: 80px;
+}

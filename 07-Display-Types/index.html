@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Display Types</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Display Types</h1>
+  <h2>Block Level Elements</h2>
+  <p>Most HTML elements are block level elements</p>
+  <p>Block Level Elements take up the entire line.</p>
+  <p>We can give block level elements a fixed width.</p>
+  <p id="fixed">We can give block level elements a fixed width.</p>
+  <p>But if they're positioned statically, they still can't "cross" other elements. Remember the boxes from <a href="../05-Static-Positioning-Demo/index.html">05-Static-Positioning-Demo?</a></p>
+  
+  <h2>Inline Elements</h2>
+  <p>Did you notice how the anchor tag above?</p>
+  <p>I gave that a blue outline for a reason</p>
+  <p>You'll notice that unlike most elements, anchor tags only take up as much space as they need to.</p>
+  <p>This is because anchor tags are inline elements</p>
+  <p>They are called this because inline elements <span class="bold">can</span> live on the same line as other elements.</p>
+  <p><span>Did you notice the span? </span><span>Spans are totally cool being on the same line as other inline elements such as</span><a href="#">anchor tags</a><span>Because that's how inline elements behave</span></p>
+  <p>Inline elements are positioned with left and right margin and padding only. Inline elements completeley ignore top and bottom margin and padding</p>
+
+  <h2>Inline Blocks</h2>
+  <p> Inline block elements are a hybrid block and inline display type. They can live on the same line as other inline or inline block elements, but can be positioned with margin and padding in all directions. <button>Buttons</button> for example are <button>inline-blocks</button></p>
+</body>
+</html>

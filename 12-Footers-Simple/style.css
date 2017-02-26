@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: deepskyblue;
+  color: white;
+  padding: 20px;
+  padding-bottom: 30px;
+  height: 100px;
+}
+
+.footer span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: cornflowerblue;
+}
+
+main {
+  padding-bottom: 150px;
+}

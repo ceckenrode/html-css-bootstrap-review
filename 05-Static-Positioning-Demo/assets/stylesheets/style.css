@@ -1,0 +1,15 @@
+.box {
+  height: 100px;
+  /*width: 100px;*/
+  /*border: 2px solid black;*/
+}
+
+.red {
+  /*margin-left: 500px;*/
+  /*margin-top: 100px;*/
+  background: red;
+}
+
+.blue {
+  background: blue;
+}

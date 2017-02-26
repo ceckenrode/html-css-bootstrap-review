@@ -1,0 +1,15 @@
+nav.navbar {
+  background: dodgerblue;
+  position: fixed;
+  width: 100%;
+}
+
+nav.navbar > ul > li {
+  display: inline-block;
+  margin: 15px;
+}
+
+nav.navbar > ul > li > a {
+  text-decoration: none;
+  color: white;
+}

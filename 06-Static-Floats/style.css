@@ -1,0 +1,23 @@
+nav.navbar {
+  background: dodgerblue;
+}
+
+nav.navbar > ul > li {
+  float: left;
+  margin: 15px;
+}
+
+nav.navbar > ul > li > a{
+  text-decoration: none;
+  color: white; 
+}
+
+.clearfix {
+  clear: both; 
+}
+
+/*nav.navbar > ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}*/

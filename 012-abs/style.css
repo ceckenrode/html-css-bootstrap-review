@@ -1,0 +1,17 @@
+.container {
+  border: 2px solid red;
+  overflow: auto;
+}
+/*.float-right {
+  float: right;
+}*/
+
+img {
+  display: inline-block;
+  border: 2px solid red;
+}
+
+p {
+  display: inline-block;
+  border: 2px solid red;
+}

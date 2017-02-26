@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
+.wrapper {
+  position: relative;
+  min-height: 80%;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: deepskyblue;
+  color: white;
+  padding: 20px;
+  padding-bottom: 30px;
+  min-height: 20%;
+  overflow: auto;
+}
+
+.footer span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: cornflowerblue;
+}
+
+main {
+  padding-bottom: 50px;
+}

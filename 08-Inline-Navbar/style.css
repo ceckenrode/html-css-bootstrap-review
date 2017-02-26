@@ -1,0 +1,13 @@
+nav.navbar {
+  background: dodgerblue;
+}
+
+nav.navbar > ul > li {
+  display: inline-block;
+  margin: 15px;
+}
+
+nav.navbar > ul > li > a {
+  text-decoration: none;
+  color: white;
+}

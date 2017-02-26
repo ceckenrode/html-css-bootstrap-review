@@ -1,0 +1,9 @@
+@media (max-width: 410px) {
+  ul.navbar-nav > li.navbar-item {
+    padding: 12px;
+  }
+
+  ul.navbar-nav > li.navbar-item:first-child {
+    margin-right: 20px;
+  }
+}
