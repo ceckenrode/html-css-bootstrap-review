@@ -1,0 +1,16 @@
+h1 {
+  color: green;
+}
+
+p {
+  font-weight: 900;
+}
+
+span {
+  font-style: italic;
+  color: blue;
+}
+
+body {
+  background-color: yellow;
+}

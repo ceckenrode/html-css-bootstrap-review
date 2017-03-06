@@ -1,23 +1,22 @@
 nav.navbar {
-  background: dodgerblue;
+  background: deepskyblue;
+  overflow: auto;
+  padding: 20px;
 }
 
-nav.navbar > ul > li {
+li {
+  margin-left: 10px;
+  margin-right: 10px;
+  background: darkslateblue;
+  border-radius: 4px;
+  padding: 10px;
   float: left;
-  margin: 15px;
+  color: lightblue;
+  cursor: pointer;
 }
 
-nav.navbar > ul > li > a{
-  text-decoration: none;
-  color: white; 
+li:hover {
+  background: white;
+  color: deepskyblue;
 }
 
-.clearfix {
-  clear: both; 
-}
-
-/*nav.navbar > ul::after {
-  content: "";
-  display: block;
-  clear: both;
-}*/

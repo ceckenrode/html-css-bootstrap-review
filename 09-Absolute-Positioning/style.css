@@ -17,12 +17,13 @@ body {
   background: rebeccapurple;
   position: absolute;
   bottom: 0;
-  right: 0;
 }
+
 
 .box-2 {
   background: firebrick;
   position: absolute;
+  z-index: 11;
 }
 
 .box-3 {

@@ -1,0 +1,27 @@
+
+
+/*Give the section a red border*/
+section {
+  border: 2px solid red;
+}
+
+/*Make all of the h1 elements green in color*/
+h1 {
+  color: green;
+}
+
+/*Make all of the text inside of the p tags bold*/
+p {
+  font-weight: bold;
+}
+
+/*Make all of the spans italic and blue in color*/
+span {
+  font-style: italic;
+  color: blue;
+}
+
+/*Give the body a yellow background*/
+body {
+  background: yellow;
+}
